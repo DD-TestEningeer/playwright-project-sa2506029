@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","13093","Navigate to OrangeHRM Login Page and verify UI elements","chromium","Tue Dec 09 20:38:50 IST 2025","failed","Tue Dec 09 20:39:03 IST 2025","","loginNavigation.spec.js","",""
