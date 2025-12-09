@@ -30,9 +30,9 @@ await page.locator('//button[@type="submit"]').click()
 const headerElement = await page.locator('//h6[text()="Dashboard"]')
 
 await expect(headerElement).toBeVisible()
-// await expect(headerElement).toHaveText('Dashboard') // pass scenario 
+await expect(headerElement).toHaveText('Dashboard') // pass scenario 
 
-await expect(headerElement).toHaveText('Home') // fail scenario 
+// await expect(headerElement).toHaveText('Home') // fail scenario 
 
 
 
